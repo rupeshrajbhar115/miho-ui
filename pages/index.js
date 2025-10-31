@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect, useRef } from "react";
 // MODULES //
 
@@ -436,7 +437,7 @@ export default function HomePage() {
 														<div className={styles.item_info}>
 															<div className={styles.time}>3 min read</div>
 															<div className={styles.title}>
-																Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed..
+																Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed..
 															</div>
 														</div>
 														<div className={styles.item_arrow}>
@@ -462,7 +463,7 @@ export default function HomePage() {
 														<div className={styles.item_info}>
 															<div className={styles.time}>3 min read</div>
 															<div className={styles.title}>
-																Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed..
+																Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed..
 															</div>
 														</div>
 														<div className={styles.item_arrow}>
@@ -488,7 +489,7 @@ export default function HomePage() {
 														<div className={styles.item_info}>
 															<div className={styles.time}>3 min read</div>
 															<div className={styles.title}>
-																Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed..
+																Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed..
 															</div>
 														</div>
 														<div className={styles.item_arrow}>
@@ -718,13 +719,13 @@ export default function HomePage() {
 								<ul>
 									<li>
 										<a>
-											<img src={Loaction.src} alt="location" className="img-responsive" />{" "}
+											<img src={Loaction.src} alt="location" className="img-responsive" />
 											Marol Industrial Area, Andheri East, Mumbai
 										</a>
 									</li>
 									<li>
 										<a href="mailto:info@miho">
-											<img src={Mail.src} alt="location" className="img-responsive" />{" "}
+											<img src={Mail.src} alt="location" className="img-responsive" />
 											info@miho
 										</a>
 									</li>
