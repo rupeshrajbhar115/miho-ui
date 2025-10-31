@@ -1,0 +1,42 @@
+@import "../helpers/helpers.scss";
+
+.main_footer {
+  padding: 14px 0;
+  background-color: #2B8B00;
+  .footer_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p{
+      color: var(--Orange-100, #FFF5E5);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      font-family: var(--font_primary);
+    }
+    .made{
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      font-family: var(--font_primary);
+      color: var(--Orange-100, #FFF5E5);
+    }
+    .social_media{
+      ul{
+        display: flex;
+        gap: 15px;
+        li{
+          list-style: none;
+          a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+    .made{}
+  }
+}
