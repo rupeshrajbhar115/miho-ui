@@ -8,6 +8,7 @@ import Header from "@/components/Header";
 import MetaTags from "@/components/MetaTags";
 
 // SECTIONS //
+import IndianMade from "@/sections/IndianMade";
 import EveryFlavour from "@/sections/EveryFlavour";
 
 // PLUGINS //
@@ -51,6 +52,7 @@ import JustBottle2 from "../public/img/home/just_bottle_2.png";
 import Fire from "../public/img/home/fire.svg";
 import JustArrow from "../public/img/home/just_arrow.svg";
 import GreenWaveTop from "../public/img/home/green_wave_bottom.svg";
+import MainAnimationSection from "@/sections/MainAnimationSection";
 
 // DATA //
 
@@ -256,20 +258,7 @@ export default function HomePage() {
 			setCurrentSlide(swiper.realIndex + 1);
 		},
 	};
-	// const justSettings = {
-	// 	modules: [Navigation, Autoplay],
-	// 	loop: true,
-	// 	spaceBetween: 10,
-	// 	slidesPerView: 2,
-	// 	speed: 1000,
-	// 	autoplay: {
-	// 		delay: 2500,
-	// 		disableOnInteraction: false,
-	// 	},
-	// 	onBeforeInit: (swiper) => {
-	// 		swiperRef1.current = swiper;
-	// 	},
-	// };
+
 	return (
 		<div>
 			{/* Metatags */}
@@ -280,6 +269,8 @@ export default function HomePage() {
 
 			{/* Page Content starts here */}
 			<main className={`${styles.HomePage}`}>
+				<MainAnimationSection />
+				<IndianMade />
 				<EveryFlavour />
 				<section className={`${styles.just_section}`}>
 					<img
