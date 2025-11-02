@@ -5,8 +5,11 @@
 // SECTIONS //
 
 // PLUGINS //
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 // UTILS //
+import { GreenCan } from "@/utils/SvgImports";
 
 // STYLES //
 import styles from "@/styles/sections/MainAnimationSection.module.scss";
@@ -25,6 +28,7 @@ import bannerVector4 from "../../public/img/home/bannerVector4.png";
 
 /** MainAnimationSection Section */
 export default function MainAnimationSection() {
+	const animationTimeline = gsap.timeline();
 	return (
 		<section className={styles.MainAnimationSection}>
 			<div className={styles.banner_section}>

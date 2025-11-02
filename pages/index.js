@@ -53,6 +53,7 @@ import Fire from "../public/img/home/fire.svg";
 import JustArrow from "../public/img/home/just_arrow.svg";
 import GreenWaveTop from "../public/img/home/green_wave_bottom.svg";
 import MainAnimationSection from "@/sections/MainAnimationSection";
+import TestSection from "@/sections/TestSection";
 
 // DATA //
 
@@ -269,6 +270,7 @@ export default function HomePage() {
 
 			{/* Page Content starts here */}
 			<main className={`${styles.HomePage}`}>
+				<TestSection />
 				<MainAnimationSection />
 				<IndianMade />
 				<EveryFlavour />
